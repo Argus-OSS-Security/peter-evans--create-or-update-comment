@@ -1,5 +1,6 @@
 name: Test v3
-on: workflow_dispatch
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: workflow_dispatch
 jobs:
   testCreateOrUpdateComment:
     runs-on: ubuntu-latest

@@ -1,7 +1,8 @@
 name: Test Command
-on:
-  repository_dispatch:
-    types: [test-command]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   repository_dispatch:
+#     types: [test-command]
 jobs:
   testCreateOrUpdateComment:
     runs-on: ubuntu-latest
